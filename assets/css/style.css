@@ -388,16 +388,18 @@ body {
     display: inline-block;
     font-size: 22px;
     margin-top: 10px;
-    margin-left: 20px;
+    color: red;
+    margin-left: 60px;
   }
   
   .navbar-toggle {
     position: absolute;
     top: 10px;
-    left: 20px;
+    left: 5px;
     cursor: pointer;
-    color: rgba(255, 255, 255, 0.8);
+    color: rgb(159, 252, 116);
     font-size: 24px;
+    text-decoration: none;
   }
   
   .active {
@@ -430,7 +432,7 @@ body {
   
     .logo {
       margin-top: 0;
-      left: 40px;
+      margin-left: 20px;
     }
   
     .navbar-toggle {
@@ -441,4 +443,167 @@ body {
     .nav-links:hover {
       color: rgba(255, 255, 255, 1);
     }
+  }
+
+
+  .shell,
+.shell-wide,
+.shell-fluid {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.shell,
+.shell-wide {
+	min-width: 300px;
+	max-width: 480px;
+}
+
+@media (min-width: 768px) {
+	.shell,
+	.shell-wide {
+		max-width: 750px;
+	}
+}
+
+@media (min-width: 992px) {
+	.shell,
+	.shell-wide {
+		max-width: 970px;
+	}
+}
+
+@media (min-width: 1200px) {
+	.shell,
+	.shell-wide {
+		max-width: 1200px;
+	}
+}
+
+@media (min-width: 1800px) {
+	.shell-wide {
+		max-width: 1800px;
+	}
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+  
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: flex !important;
+  }
+  @media (max-width: 480px) {
+    .col-xs-1 {
+    -webkit-flex-basis: 8.33333%;
+    -ms-flex-preferred-size: 8.33333%;
+    flex-basis: 8.33333%;
+    max-width: 8.33333%;
+  }
+    .col-xs-2 {
+    -webkit-flex-basis: 16.66%;
+    -ms-flex-preferred-size: 16.66%;
+    flex-basis: 16.66%;
+    max-width: 16.66%;
+  }
+    .col-xs-3 {
+    -webkit-flex-basis: 25%;
+    -ms-flex-preferred-size: 25%;
+    flex-basis: 25%;
+    max-width: 25%;
+  }
+    .col-xs-4 {
+    -webkit-flex-basis: 33.33%;
+    -ms-flex-preferred-size: 33.33%;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+  }
+    .col-xs-5 {
+    -webkit-flex-basis: 41.66%;
+    -ms-flex-preferred-size: 41.66%;
+    flex-basis: 41.66%;
+    max-width: 41.66%;
+  }
+    .col-xs-6 {
+    -webkit-flex-basis: 50%;
+    -ms-flex-preferred-size: 50%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+    .col-xs-7 {
+    -webkit-flex-basis: 58.33%;
+    -ms-flex-preferred-size: 58.33%;
+    flex-basis: 58.33%;
+    max-width: 58.33%;
+  }
+    .col-xs-8 {
+    -webkit-flex-basis: 66.66%;
+    -ms-flex-preferred-size: 66.66%;
+    flex-basis: 66.66%;
+    max-width: 66.66%;
+  }
+    .col-xs-9 {
+    -webkit-flex-basis: 75%;
+    -ms-flex-preferred-size: 75%;
+    flex-basis: 75%;
+    max-width: 75%;
+  }
+    .col-xs-10 {
+    -webkit-flex-basis: 83.33%;
+    -ms-flex-preferred-size: 83.33%;
+    flex-basis: 83.33%;
+    max-width: 83.33%;
+  }
+    .col-xs-11 {
+    -webkit-flex-basis: 91.66%;
+    -ms-flex-preferred-size: 91.66%;
+    flex-basis: 91.66%;
+    max-width: 91.66%;
+  }
+    .col-xs-12 {
+    -webkit-flex-basis: 100%;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    max-width: 100%;
+  }
+  
+   }
+
+.bg-rose {
+    background-color: pink;
+}
+
+.section-20 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+footer {
+    background-color: rgb(86, 191, 252);
+    padding: 10px;
+    text-align: center;
+    color: white;
   }
