@@ -13,3 +13,6 @@ var fibonacci_numbers = function (n)
 };
 
 console.log(fibonacci_numbers(20));
+console.log(fibonacci_numbers(10));
+console.log(fibonacci_numbers(1));
+console.log(fibonacci_numbers(0));
