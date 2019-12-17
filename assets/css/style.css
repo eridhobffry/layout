@@ -1,3 +1,4 @@
+/* NORMALIZE */
 body {
     margin: 0;
   }
@@ -326,7 +327,7 @@ body {
     display: none;
   }
   
-  
+  /* TEXT MATTERS */
   .text-left {
       text-align: left;
   }
@@ -359,7 +360,8 @@ body {
       text-transform: capitalize;
   }
 
-.navbar {
+  /* NAVBAR */
+  .navbar {
     font-size: 18px;
     background: grey;
     border: 1px solid rgba(0, 0, 0, 0.2);
@@ -404,6 +406,7 @@ body {
     display: block;
   }
   
+  /* NAVBAR WITH SCREEN */
   @media screen and (min-width: 768px) {
     .navbar {
       display: flex;
@@ -443,7 +446,7 @@ body {
     }
   }
 
-
+/* ALL NEW CONTAINER */
 .shell,
 .shell-wide,
 .shell-fluid {
@@ -486,6 +489,7 @@ body {
 	}
 }
 
+/* COULD BE REMINDS ME OF ROW COL */
 * {
     box-sizing: border-box;
   }
@@ -598,6 +602,8 @@ body {
     padding-bottom: 20px;
 }
 
+
+/* DOWNSTAIR */
 footer {
     background-color: rgb(86, 191, 252);
     padding: 10px;
