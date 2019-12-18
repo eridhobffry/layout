@@ -12,7 +12,11 @@ var fibonacci_numbers = function (n)
   }
 };
 
+console.log("fib(20)")
 console.log(fibonacci_numbers(20));
+console.log("fib(10)")
 console.log(fibonacci_numbers(10));
+console.log("fib(1)")
 console.log(fibonacci_numbers(1));
+console.log("fib(0)")
 console.log(fibonacci_numbers(0));
